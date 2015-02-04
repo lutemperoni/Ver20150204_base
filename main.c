@@ -19,12 +19,16 @@ int main(int argc, char** argv) {
     int res;
     float pd;
     int i;
+    int num;
     
-    printf("Inserisci %d valori interi POSITIVI\n", SIZE);
-    // inserisci il codice necessario all'inserimento dei valori nell'array v
+    printf("Inserisci %d valori interi POSITIVI\n",SIZE);
     
-    mas = massimo(v, SIZE);
-    med = media(v, SIZE);
+    for(i=0;i<v[SIZE];i++)
+    {
+        scanf("%d",&v[SIZE]);
+    }
+    
+    mas = massimo(v, SIZE);\
     div = divisione(v[0], v[1]);
     quo = quoziente(v[0], v[1]);
     res = restoDivisione(v[0], v[1]);
@@ -42,12 +46,18 @@ int main(int argc, char** argv) {
     return (EXIT_SUCCESS);
 }
 
+
+  
+
+     
+
 /*
  * Calcola il valore massimo presente nell'array di valori interi POSITIVI, di dimensione n.
  */
 int massimo(int valori[], int n) {
     // TODO Implementa il codice della funzione
-    return -1;
+    int=i;
+    
 }
 
 /*
